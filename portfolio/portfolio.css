@@ -1,0 +1,161 @@
+body{
+    background-color: white;
+}
+
+h1{
+    text-align: center;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:xx-large;
+}
+
+h3{ 
+    text-align: center;
+}
+#myself{
+    width: 350px;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20%;    
+}
+
+.button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    font-size: 16px;
+    margin-left: auto;
+    margin-right: auto;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.button5 {
+    background-color: white;
+    color: black;
+    border: 2px solid #555555;
+}
+  
+.button5:hover {
+    background-color: #555555;
+    color: white;
+}
+  
+  
+
+
+h2{  text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+p{ 
+    text-align: center;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+#github{ 
+    width: 350px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+
+}
+
+footer{ 
+    display: block;
+
+}
+
+
+.column {
+    float: left;
+    width: 5%;
+    padding: 1px;
+  }
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+.row {
+    display: flex;
+  }
+  
+  .column {
+    flex: 5%;
+    padding: 1px;
+  }
+
+.fa {
+    padding: 10px;
+    font-size: 20px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+}
+  
+
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-linkedin {
+    background: purple;
+    color: white;
+
+}
+
+.fa-facebook {
+    background: purple;
+    color: white;  
+}
+
+.fa-flickr {
+    background: purple;
+    color: white;
+}
+
+ul{ 
+    display: table;
+    margin-left: auto;
+    margin-right: auto;
+}
+  
+  
+.text {
+    color: black;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
+  #case{
+    width: 750px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    border-radius: 2%;
+
+  }
+
+#userstory{ 
+    width: 750px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
